@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+.header{
+    background:#141412;  
+    color: rgb(255, 255, 255);
+    float:left;
+    width: 100%;    
+}
+h1{
+    margin-left: 20px;
+}
+.hleft{
+    float: left;
+    width: 70%;
+}
+.hright{
+    float:left;
+    width: 30%;
+    text-decoration: none;
+    margin-top: 14px;
+    display: flex;
+}
+.container{
+    float: left;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #bb9630, #bbd12d, #c19d27, #ecdf23, #c66a3f);
+    height: 1085px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    float: left;
+    width: 100%;
+}
+.trains{
+    width: 86%;
+    border: 3px solid;
+    border-radius: 5px;
+    height: 260px;
+    background-color: antiquewhite;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.tname{
+    padding-left: 10px;
+    width: 100%;
+}
+.ttime{
+    padding-left: 10px;
+    width: 100%;
+}
+.dtime{
+    width: 80%;
+    float: left;
+}
+.atime{
+    padding-left: 170px;
+    float: left;
+}
+.seats{
+    width: 100px;
+    height: 90px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+button{
+    margin-left: 35px;
+    border-radius: 3px;
+}
+button:hover{
+    cursor: pointer;
+}
